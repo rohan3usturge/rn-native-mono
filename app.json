@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "rn-native-mono-poc"
+    },
+    "android": {
+      "package": "com.rsu.rnnativemono"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
