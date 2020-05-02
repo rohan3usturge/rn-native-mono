@@ -2,13 +2,15 @@ package com.rsu.rnnativemono;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ComponentName;
 import android.os.Bundle;
 
-public class HomeScreenReactActivity extends AppCompatActivity {
+import com.facebook.react.ReactActivity;
+
+public class HomeScreenReactActivity extends ReactActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_screen_react);
+    protected String getMainComponentName() {
+        return "HomeScreen";
     }
 }

@@ -1,6 +1,7 @@
 package com.rsu.rnnativemono;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
 public class PurelyAndroidActivity extends AppCompatActivity {

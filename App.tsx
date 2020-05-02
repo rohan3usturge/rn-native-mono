@@ -1,10 +1,11 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button, NativeModules } from "react-native";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Main Screen from React Native</Text>
+      <Button title="Go To Home Screen" onPress={() => NativeModules.CustomNavigation.navigateToHome()}/>
     </View>
   );
 }
