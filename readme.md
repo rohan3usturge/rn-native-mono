@@ -27,7 +27,7 @@ get the latest version of container for maven
 try to integrate the changes in native code.
 try to start the app...app crashes / does not work... back to step1
 
---- Another person keeps waiting.
+-- Another person keeps waiting.
 -- No Single environment to test everything.
 -- No Debugging at the same time.
 -- No Real time visibility of the changes.
