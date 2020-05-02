@@ -1,17 +1,21 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button, NativeModules } from "react-native";
 
-export default () => {
+
+export default function MultiOffersScreen() {
   return (
     <View style={styles.container}>
-      <Text>This is a multi Offers Screen</Text>
+      <Text>React Native</Text>
+      <Text>Multi Offers Fragment</Text>
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    height: 300,
+    width: 300,
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",

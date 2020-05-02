@@ -4,7 +4,8 @@ import { StyleSheet, Text, View, Button, NativeModules } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Main Screen from React Native</Text>
+      <Text>React Native</Text>
+      <Text>Main Screen</Text>
       <Button title="Go To Home Screen" onPress={() => NativeModules.CustomNavigation.navigateToHome()}/>
     </View>
   );
@@ -13,6 +14,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    width: 300,
+    height: 300,
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
